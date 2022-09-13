@@ -24,8 +24,7 @@ msvc/MF_NWT/x64/Release/
 *.manifest
 !MODFLOW-NWT.exe
 !MODFLOW-NWT_64.exe
-!AgTest1A.exe
-!AgTest1B.exe
+
 
 # MODFLOW output files
 *.hobs

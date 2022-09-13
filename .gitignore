@@ -1,3 +1,5 @@
+builddir/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -16,8 +18,8 @@
 *.suo
 *.user
 *.u2d
-MF_NWT/MF_NWT/x64/Debug/
-MF_NWT/MF_NWT/x64/Release/
+msvc/MF_NWT/x64/Debug/
+msvc/MF_NWT/x64/Release/
 *.manifest
 !MODFLOW-NWT.exe
 !MODFLOW-NWT_64.exe
@@ -35,7 +37,7 @@ Examples/AgOptions/Uzf_well_supp_irr/cbc.unf
 Examples/AgOptions/~$Test_analysis.xlsx
 Examples/AgOptions/Uzf_well_supp_irr/wellsuppirr.lst
 Examples/AgOptions/Test_analysis.xlsx
-MF_NWT/MF_NWT/x64/Release/MF_NWT.exp
+msvc/MF_NWT/x64/Release/MF_NWT.exp
 Examples/sfr4test_single_line_options/sfrtest4.lst
 Examples/sfr4test_single_line_options/sfrtest4.fhd
 Examples/sfr4test_single_line_options/sfrtest4.fdn

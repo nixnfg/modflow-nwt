@@ -1,0 +1,26 @@
+{
+    "version": "0.0.1",
+    "configurations": [   
+        {
+            "name": "Fortran_GDB",
+            "type": "cppdbg",
+            "request": "launch",
+            "targetArchitecture": "x86",
+            "program": "${workspaceFolder}\\bin\\modflow-nwt.exe",
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\App\\Lang\\mingw64\\bin\\gdb.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "externalConsole": true,
+            //"preLaunchTask": "Build MF6 (gfortran, release)",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+    ],
+}

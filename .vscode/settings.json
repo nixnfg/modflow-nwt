@@ -1,0 +1,9 @@
+{
+    "fortran.linter.includePaths": [
+        "./src"
+    ],
+    "fortran.linter.extraArgs": [
+        "-J ./src"
+    ],
+    "mesonbuild.configureOnOpen": true,
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{A9905729-FEA4-4DE4-BBC2-89E189FAEBED}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" FloatingPointExceptionHandling="fpe0" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" FloatingPointExceptionHandling="fpe0" FloatingPointModel="source" FloatingPointExceptionsModel="enable"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalYes" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnDeclarations="true" WarnUnusedVariables="true" WarnTruncateSource="true" WarnUncalled="true" WarnInterfaces="true" FloatingPointExceptionHandling="fpe0" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Preprocess="preprocessYes" FloatingPointExceptionHandling="fpe0" FloatingPointModel="source" FloatingPointExceptionsModel="enable"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalYes" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\src\mf_de47_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2ag1_NWT_mf.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2bas7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2bcf7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2chd7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2drn7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2drt7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2ets7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2evt7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2fhb7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2gag7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2ghb7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2hfb7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2huf7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2hydmod7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2ibs7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2lak7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2lpf7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2mnw17_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2mnw27_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2mnw2i7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2rch7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2res7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2riv7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2sfr7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2str7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2sub7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2swi27.F90"/>
+		<File RelativePath="..\..\src\mf_gwf2swr7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2swr7util.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2swt7.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2upw1.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2uzf1_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwf2wel7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwflakmodule_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwfsfrmodule_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_gwfuzfmodule_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_hufutl7.f90"/>
+		<File RelativePath="..\..\src\mf_Irestart.f90"/>
+		<File RelativePath="..\..\src\mf_lmt8_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_mach_mod.f90"/>
+		<File RelativePath="..\..\src\mf_MF_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_mhc7.f90"/>
+		<File RelativePath="..\..\src\mf_modules.f90"/>
+		<File RelativePath="..\..\src\mf_nogmg.f90"/>
+		<File RelativePath="..\..\src\mf_NWT1_gmres.f90"/>
+		<File RelativePath="..\..\src\mf_NWT1_ilupc_mod.f90"/>
+		<File RelativePath="..\..\src\mf_NWT1_module.f90"/>
+		<File RelativePath="..\..\src\mf_NWT1_solver.f90"/>
+		<File RelativePath="..\..\src\mf_NWT1_xmd.f90"/>
+		<File RelativePath="..\..\src\mf_NWT1_xmdlib.f90"/>
+		<File RelativePath="..\..\src\mf_obs2bas7.f90"/>
+		<File RelativePath="..\..\src\mf_obs2chd7.f90"/>
+		<File RelativePath="..\..\src\mf_obs2drn7.f90"/>
+		<File RelativePath="..\..\src\mf_obs2ghb7.f90"/>
+		<File RelativePath="..\..\src\mf_obs2riv7.f90"/>
+		<File RelativePath="..\..\src\mf_obs2str7.f90"/>
+		<File RelativePath="..\..\src\mf_openspec.F90"/>
+		<File RelativePath="..\..\src\mf_parutl7.f90"/>
+		<File RelativePath="..\..\src\mf_pcg7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_sip7_NWT.f90"/>
+		<File RelativePath="..\..\src\mf_utl7.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
